@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://accounts.scdn.co/sso/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico">
+    <title>Login - Spotify</title>
+    <script src="https://kit.fontawesome.com/ede99f0e80.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            background-color: rgb(30, 30, 30);
+            margin: 0;
+            color: #fafaf9;
+            font-family: 'Arial Bold', sans-serif font-weight: 900;
+            /* border: 1px solid white; */
+            box-sizing: border-box;
+
+        }
+
+        .b {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .b a:hover{
+            color:#1ed760
+        }
+
+        h1,
+        label,
+        input,
+        button,
+        p,
+        a {
+            text-align: center;
+        }
+
+        div,
+        nav,
+        i,
+        h1,
+        center,
+        input,
+        label,
+        p,
+        button,
+        center
+         {
+            background-color: #121212;
+        }
+
+        button {
+            width: 55%;
+            border-radius: 80px;
+            height: 50px;
+            margin-bottom: 1%;
+            border: rgb(110, 110, 110) 1px solid;
+            font-size: medium;
+
+        }
+
+        hr {
+            color: rgb(110, 110, 110)
+        }
+
+        label {
+            margin-bottom: 1.4%;
+        }
+
+        .a {
+             /* border: 0.5px solid grey;  */
+            margin: 2.5% 23%;
+            border-radius: 12px;
+            padding: 5%;
+            /* background: linear-gradient(0% #121212,grey); */
+
+
+        }
+
+        input {
+            width: 55%;
+            height: 45px;
+            margin-bottom: 3.5%;
+        }
+
+        label {
+            width: 55%;
+
+        }
+
+        .pakodi{
+            background-color:#1ed760;
+            color: #121212;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="font-size: 25px; padding: 1.3em 0 1.3em 2em"><a title="Spotify" width="1px"><i style="font-size: 36px;"
+                class="fa-brands fa-spotify"></i>Spotify</a></nav>
+    <div class="a">
+        <div class="b">
+            <h1 style="font-size: 2em;margin-bottom: 10.5%;">Log in to Spotify</h1>
+            <center><button type="button"><b><i class="fa-brands fa-google" style="font-size: 20px;"></i>&nbsp;&nbsp;
+                        Continue with Google</b></button></center>
+            <center><button type="button"><b>Continue with Facebook</b></button></center>
+            <center><button type="button"><b><i class="fa-brands fa-apple"></i>Continue with Apple</b></button></center>
+            <center><button type="button"><b>Continue with phone number</b></button></center>
+            <hr style="margin: 5.5%;">
+        
+            <label for="lg" style="align-self: center;text-align: left;"> <b>Email or username</b></label>
+            <input id="lg" style="align-self: center;text-align: left;" type="email" placeholder="  Email or username">
+            <label for="pw" style="align-self: center;text-align: left;"> <b>Password</b></label>
+            <input id="pw" style="align-self: center;text-align: left;" type="email" placeholder="  Password">
+            <center><button type="button"
+                    style="background-color: #1ed760; color: black; margin-top: 10%;margin-bottom: 6%;"><b class="pakodi">Log In</b></button>
+            </center>
+            <a href="#" style="margin-bottom: 5%; background-color: #121212;">Forgot your password?</a>
+            <hr>
+            <p style="margin-top: 13%;color: grey;">Don't have an account? <a href="./spotify.html" >Sign up for Spotify</a></p>
+        </div>
+    </div>
+    <footer>
+        <div style="padding:2.5%">
+            <center>This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a
+                    href="#">Terms of Service</a> apply.</center>
+        </div>
+    </footer>
+</body>
+
+</html>

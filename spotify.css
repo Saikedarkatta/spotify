@@ -1,0 +1,136 @@
+*{
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-weight: 900; 
+}
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* margin: 0; */
+}
+.container {
+    /* text-align:; */
+    width: 300px;
+    /* padding: 20px; */
+}
+/* head{
+    position: relative;
+    display: none;
+    align-self: flex-start;
+    margin-left: -200px;
+} */
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    /* float: left; */
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    /* text-align: justify; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    /* display: none; */
+    align-self: flex-start;
+    /* margin-right: 198px; */
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #656161;
+    border-radius: 5px;
+    background-color: #121212;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.phone {
+    color: #1ed760;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.next {
+    width: 100%;
+    padding: 15px;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 20px;
+    color: #121212;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.or {
+    margin: 20px 0;
+}
+
+button[type="button"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: 121212;
+    border: 0.5px solid rgb(80, 79, 79);
+}
+button[type="button"]:hover{
+    border: 1px solid white;
+}
+
+.google {
+    background-color: #121212;
+    /* margin-bottom: 20px; */
+}
+
+.facebook {
+    background-color: #121212;
+}
+
+.apple {
+    background-color: #121212;
+    border: 1px solid white;
+}
+hr{
+    width: 100%;
+    /* color: rgb(0, 0, 0); */
+    border: 1px solid gray;
+}
+.login {
+    margin-top: 20px;
+}
+
+.login a {
+    color: #1ed760;
+}
+
+.recaptcha {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.recaptcha a {
+    color: #1ed760;
+}
